@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "Botanity";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 400;
+  src: url("public/fonts/botanity.ttf") ;
+}
+@font-face {
+  font-family: "Ananda2";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 400;
+  src: url("public/fonts/ananda_personal_use[1].ttf") ;
+}
+@font-face {
+  font-family: "CrunchChipsRegular";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 400;
+  src: url("public/fonts/crunch chips.otf") ;
+}
+@font-face {
+  font-family: "Mogent";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 400;
+  src: url("public/fonts/mogent.otf") ;
+}
+@font-face {
+  font-family: "AnandaBlackPersonalUse-Regular";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 400;
+  src: url("public/fonts/ananda_black_personal_use[1].ttf") ;
+}
 :root {
   --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
@@ -74,7 +109,11 @@
 }
 .teleport-show {
   display: flex !important;
-  transform: none !important;
+  transform: translateX(0%) !important;
+}
+.fixed-navbar {
+  position: fixed;
+  animation: slidedown in both;
 }
 .Heading {
   font-size: 32px;

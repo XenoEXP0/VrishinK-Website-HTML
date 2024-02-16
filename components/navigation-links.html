@@ -43,7 +43,27 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
     <link
@@ -65,6 +85,20 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <style>
+      @keyframes slideInDown {
+
+              0% {
+                -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+                visibility: visible;
+              }
+              100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+              }
+            }
+    </style>
   </head>
   <body>
     <link rel="stylesheet" href="../style.css" />
@@ -78,6 +112,23 @@
         <span class="navigation-links-text4"><span>Blog</span></span>
       </nav>
     </div>
+    <script>
+      window.onload = () => {
+
+            document.addEventListener('scroll', (e) => {
+              const header = document.querySelector('.navbar')
+              e.stopPropagation()
+              const scrollTop = window.pageYOffset
+              if (scrollTop > 400) {
+                header.classList.add('fixed-navbar')
+                header.style.backgroundColor = '#000'
+              } else {
+                header.classList.remove('fixed-navbar')
+                header.style.backgroundColor = 'transparent'
+              }
+            })
+          }
+    </script>
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"

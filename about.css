@@ -1,4 +1,4 @@
-.faq-container {
+.about-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.faq-navbar-interactive {
+.about-navbar-interactive {
   width: 100%;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.faq-container1 {
+.about-container1 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -24,44 +24,44 @@
   align-items: space-between;
   flex-direction: column;
 }
-.faq-desktop-menu {
+.about-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
-.faq-text {
+.about-text {
   font-family: "AnandaBlackPersonalUse-Regular";
 }
-.faq-links {
+.about-links {
   flex: 1;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
-.faq-navlink {
+.about-navlink {
   text-decoration: none;
 }
-.faq-navlink1 {
+.about-navlink1 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.faq-navlink2 {
+.about-navlink2 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.faq-navlink3 {
+.about-navlink3 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.faq-navlink4 {
+.about-navlink4 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.faq-burger-menu {
+.about-burger-menu {
   display: none;
 }
-.faq-mobile-menu {
+.about-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -74,183 +74,183 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.faq-nav {
+.about-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.faq-top {
+.about-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.faq-logo {
+.about-logo {
   height: 2rem;
 }
-.faq-close-menu {
+.about-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.faq-icon {
+.about-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.faq-links1 {
+.about-links1 {
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-.faq-text3 {
+.about-text3 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.faq-text4 {
+.about-text4 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.faq-text5 {
+.about-text5 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.faq-text6 {
+.about-text6 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.faq-text7 {
+.about-text7 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.faq-buttons {
+.about-buttons {
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.faq-login {
+.about-login {
   margin-right: var(--dl-space-space-twounits);
 }
-.faq-icon2 {
+.about-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.faq-icon4 {
+.about-icon4 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.faq-icon6 {
+.about-icon6 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
 @media(max-width: 1600px) {
-  .faq-navbar-interactive {
+  .about-navbar-interactive {
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
     border-bottom-width: 2px;
   }
-  .faq-navlink {
+  .about-navlink {
     font-size: 28px;
   }
-  .faq-navlink1 {
+  .about-navlink1 {
     font-size: 28px;
   }
-  .faq-navlink2 {
+  .about-navlink2 {
     font-size: 28px;
   }
-  .faq-navlink3 {
+  .about-navlink3 {
     font-size: 28px;
   }
-  .faq-navlink4 {
+  .about-navlink4 {
     font-size: 28px;
   }
 }
 @media(max-width: 1200px) {
-  .faq-navbar-interactive {
+  .about-navbar-interactive {
     height: 160px;
     border-color: var(--dl-color-gray-black);
     border-width: 1.6px;
   }
-  .faq-container1 {
+  .about-container1 {
     border-color: var(--dl-color-gray-black);
     border-style: solid;
     border-width: 2px;
   }
-  .faq-text {
+  .about-text {
     font-size: 2.5em;
     font-family: AnandaBlackPersonalUse-Regular;
   }
-  .faq-text1 {
+  .about-text1 {
     font-family: AnandaBlackPersonalUse-Regular;
   }
-  .faq-navlink {
+  .about-navlink {
     font-size: 27px;
     font-family: Oxygen;
   }
-  .faq-navlink1 {
+  .about-navlink1 {
     font-size: 27px;
     font-family: Oxygen;
   }
-  .faq-navlink2 {
+  .about-navlink2 {
     font-size: 27px;
     font-family: Oxygen;
   }
-  .faq-navlink3 {
+  .about-navlink3 {
     font-size: 27px;
     font-family: Oxygen;
   }
-  .faq-navlink4 {
+  .about-navlink4 {
     font-size: 27px;
     font-family: Oxygen;
   }
 }
 @media(max-width: 991px) {
-  .faq-navbar-interactive {
+  .about-navbar-interactive {
     position: relative;
   }
-  .faq-desktop-menu {
+  .about-desktop-menu {
     display: none;
   }
-  .faq-burger-menu {
+  .about-burger-menu {
     height: auto;
     display: flex;
   }
 }
 @media(max-width: 767px) {
-  .faq-navbar-interactive {
+  .about-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .faq-burger-menu {
+  .about-burger-menu {
     align-items: center;
     justify-content: center;
   }
-  .faq-text3 {
+  .about-text3 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .faq-text4 {
+  .about-text4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .faq-text5 {
+  .about-text5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .faq-text6 {
+  .about-text6 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .faq-text7 {
+  .about-text7 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .faq-navbar-interactive {
+  .about-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .faq-mobile-menu {
+  .about-mobile-menu {
     padding: 16px;
   }
 }
